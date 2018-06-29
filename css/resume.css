@@ -145,3 +145,11 @@ a {
 a:hover, a:focus, a:active {
   color: #824027;
 }
+
+.fa-sub {
+   position: relative;
+   left: -.5em;
+   width: .2em;
+   vertical-align: -.25em;
+   text-shadow: -1px -1px 0px white, -1px 1px 0px white, -1px 0px 0px white; // optional contrast
+ }
