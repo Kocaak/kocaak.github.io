@@ -1,0 +1,39 @@
+
+---Downloaded files---
+The import files for: Financeup were successfully downloaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://localhost
+Data file = C:\wamp64\www/wp-content/themes/financeup/inc/ansar/import-data/financeup-wordpress.xml
+Widget file = C:\wamp64\www/wp-content/themes/financeup/inc/ansar/import-data/financeup-lite-widgets.json
+Customizer file = C:\wamp64\www/wp-content/themes/financeup/inc/ansar/import-data/financeup-export (2).dat
+Redux files:
+not defined!
+
+---Importing widgets---
+Sidebar : 
+
+Ara - Search - Widget already exists
+Son Yazılar - No Title - Widget already exists
+Arşivler - No Title - Widget already exists
+
+Footer Widget Area : 
+
+Metin - No Title - Widget already exists
+Kategoriler - Category - Widget already exists
+Sayfalar - Pages Short - Widget already exists
+Etiket Bulutu - Tags - Widget already exists
+
+Service section widgets : 
+
+financeup - Service Widget - No Title - Widget already exists
+financeup - Service Widget - No Title - Widget already exists
+financeup - Service Widget - No Title - Widget already exists
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---pt-ocdi/after_import---
+
