@@ -5,11 +5,11 @@
 *******Typography******
 **************************/
 
-.gizle{
+.gizle {
   display: none;
 }
 
-.bold{
+.bold {
   font-weight: bold;
 }
 
@@ -153,7 +153,7 @@ hr {
 
 .btn-primary {
   padding: 8px 20px;
-  background: #c52d2f;
+  background: #3c763d;
   color: #fff;
   border-radius: 4px;
   border:none;
@@ -163,7 +163,7 @@ hr {
 
 .btn-primary:hover,
 .btn-primary:focus{
-  background: #c52d2f;
+  background: #3c763d;
   outline: none;
   box-shadow: none;
 }
@@ -314,7 +314,7 @@ ul.social-share li a {
 }
 
 ul.social-share li a:hover {
-  background: #c52d2f;
+  background: #3c763d;
   color: #fff;
 }
 
@@ -358,6 +358,10 @@ input.search-form:hover {
   background: #ffffff;
   padding: 15px 0;
   padding-bottom: 0;
+}
+
+.navbar a{
+  font-weight: bold;
 }
 
  .navbar-nav{
@@ -466,17 +470,23 @@ input.search-form:hover {
   margin-top: 80px;
 }
 
+#main-slider .carousel .carousel-content h1{
+  color: #fff;
+  background-color: #3c763d;
+}
+
 #main-slider .carousel .slide-margin{
   margin-top: 140px;
 }
 
 #main-slider .carousel h2 {
   color: #fff;
+  background-color: #3c763d;
 }
 
 #main-slider .carousel .btn-slide {
   padding: 8px 20px;
-  background: #c52d2f;
+  background: #3c763d;
   color: #fff;
   border-radius: 4px;
   margin-top: 25px;
@@ -524,7 +534,7 @@ input.search-form:hover {
 #main-slider .next {
   position: absolute;
   top: 50%;
-  background-color: #c52d2f;
+  background-color: #3c763d;
   color: #fff;
   display: inline-block;
   margin-top: -25px;
