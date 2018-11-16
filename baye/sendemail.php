@@ -1,7 +1,7 @@
 <?php
 	header('Content-type: application/json');
 	$status = array(
-		'type'=>'complete',
+		'type'=>'success',
 		'message'=>'Basvuru icin tesekkurler. En kisa surede donus saglayacagiz. '
 	);
 
