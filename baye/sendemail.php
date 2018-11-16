@@ -1,7 +1,7 @@
 <?php
 	header('Content-type: application/json');
 	$status = array(
-		'type'=>'success',
+		'type'=>'complete',
 		'message'=>'Basvuru icin tesekkurler. En kisa surede donus saglayacagiz. '
 	);
 
@@ -31,7 +31,7 @@
 
     $body = 'Name: ' . $name . "\n\n" . 'Email: ' . $email . "\n\n" . 'Subject: ' . $subject . "\n\n" . 'Message: ' . $mesaj;
 
-    $success = @mail($email_to, $subject, $body, 'From: <'.$email_from.'>');
+    $success = mail($email_to, $subject, $body, 'From: <'.$email_from.'>');
 
     echo json_encode($status);
     die;
