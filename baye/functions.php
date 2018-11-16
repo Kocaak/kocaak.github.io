@@ -1,5 +1,4 @@
 <?php
-if(isset($_POST['email'])) {
 
     $email_to = "murathkocak@gmail.com";
     $email_subject = "bayebilisim.com Yeni Is Basvurusu";
@@ -22,7 +21,7 @@ if(isset($_POST['email'])) {
     $tecrube = $_POST['tecrube']; // required
     $kurs = $_POST['kurs']; // required
     $referans = $_POST['referans']; // not required
-    $mesaj = $_POST['mesaj']; // required
+    $mesaj = $_POST['mesaj']; // not required
 
     $email_message = "Detaylar Asagidadir.\n\n";
 
@@ -57,12 +56,5 @@ if(isset($_POST['email'])) {
 $headers = 'From: '.$email_from."\r\n".
 'Reply-To: '.$email_from."\r\n" .
 'X-Mailer: PHP/' . phpversion();
-@mail($email_to, $email_subject, $email_message, $headers);
-?>
-
-<!-- include your own success html here -->
-
-<?php
-
-}
+mail($email_to, $email_subject, $email_message, $headers);
 ?>
