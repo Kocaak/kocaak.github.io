@@ -49,7 +49,7 @@ function Letter(x, y, speed, first) {
 function Animation() {
   this.letters =  [];
   this.totalLetters = round(random(10,25));
-  this.speed = random(5,10);
+  this.speed = random(3,15);
 
   this.generate = function(x, y) {
     var first = round(random(0, 1));
